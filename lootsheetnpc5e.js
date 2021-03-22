@@ -1290,6 +1290,8 @@ Hooks.once("init", () => {
         scope: "world",
         config: true,
         default: false,
+        type: Boolean
+    });
 
     game.settings.register("lootsheetnpc5e", "reduceUpdateVerbosity", {
         name: "Reduce Update Shop Verbosity",
